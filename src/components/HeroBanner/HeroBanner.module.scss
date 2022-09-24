@@ -1,0 +1,49 @@
+.heroBanner {
+  margin-top: 6.75rem;
+
+  &__shape1 {
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+  }
+
+  &__shape2 {
+    position: absolute;
+    top: 95px;
+  }
+
+  &__middle {
+    margin-top: 70px;
+    height: 300px;
+  }
+
+  &__last {
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+
+  @media (max-width: 1200px) {
+    &__middle {
+      width: 194px;
+      margin: 30px auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    &__card {
+      flex-direction: column;
+    }
+  }
+}

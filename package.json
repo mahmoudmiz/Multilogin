@@ -15,10 +15,13 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "gatsby": "^4.23.1",
+    "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-sass": "^5.23.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
     "sass": "^1.55.0"
   }
 }

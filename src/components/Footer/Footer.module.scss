@@ -1,0 +1,18 @@
+@use "../../styles/variables.scss";
+
+.footer {
+  background-color: variables.$blue;
+  height: 288px;
+  margin-top: auto;
+
+  ul {
+    list-style: none;
+
+    li {
+      color: variables.$white;
+      &:nth-child(2) {
+        font-weight: 300;
+      }
+    }
+  }
+}
