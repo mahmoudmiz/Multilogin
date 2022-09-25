@@ -8,5 +8,5 @@
 main {
   display: flex;
   flex-direction: column;
-  min-height: 97.9vh;
+  min-height: calc(100vh - 1.5rem);
 }
